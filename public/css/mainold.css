@@ -1,0 +1,129 @@
+/*!
+*sets div down from nav bar
+*/
+
+.down-nav-bar{
+	margin-top: 51px;
+}
+
+.down-both-nav{
+	margin-top: 135px;
+}
+
+.white-text{
+	color:#fff;
+}
+
+.btn-correction{
+	margin-top: 24px;
+}
+/***********************
+* sidebar
+************************/
+h3 {
+  margin-top: 0;
+}
+
+.badge {
+  background-color: #777;
+}
+
+.tabs-left { margin-top: 3rem; }
+
+.nav-tabs {
+  float: left;
+  border-bottom: 0;
+  
+
+  li {
+    float: none;
+    margin: 0;
+    
+    a {
+      margin-right: 0;
+      border: 0;
+      background-color: #333;
+      
+      &:hover {
+        background-color: #444;
+      }
+    }
+  }
+  
+  .glyphicon {
+    color: #fff;
+  }
+  
+  .active .glyphicon {
+    color: #333;
+  }
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  border:0;
+}
+
+.tab-content {
+  margin-left: 45px;
+  
+  .tab-pane {
+    display: none;
+    background-color: #fff;
+    padding: 1.6rem;
+    overflow-y: auto;
+  }
+  
+  .active { display: block; }
+}
+
+.list-group {
+  width: 100%;
+
+  .list-group-item {
+    height: 50px;
+
+    h4, span {
+      line-height: 11px;
+    }
+  }
+}
+
+/***********************
+* sidebar
+************************/
+
+
+/*!
+********************************
+*
+* register form styles
+*
+********************************
+*/
+
+/*!
+*sets bg image
+*/
+.register-bg {
+    background-image: url("../img/reg_back.jpg");
+	overflow: hidden;
+	height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+.border-reg{
+	border-radius: 5px;
+	box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+.affix {
+  top: 0;
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+
+
